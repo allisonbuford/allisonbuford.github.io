@@ -2,8 +2,60 @@
 <html>
 
     <head>
+<!--here-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
 
-        <meta charset="UTF-8">
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#">About</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+<!--here-->
+<div class="main">       
+ <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, height=device-height
             , user-scalable=no, initial-scale=1.0">
      
@@ -21,8 +73,8 @@
         <h1><a style="color:#3b0066">Allison Buford Moon</a></h1>
 
         <h2>About</h2>
-            <p>I create accessible, engaging, and effective content for users around the world. My goal is to connect people to the information that they want in a frustration-free way. We live in an age of information where accessibility is too often under-valued. I see this as a challenge-- one that I happily rise to.</p>
-            <p>I currently work as a Product Specialist for a nonprofit where I create and manage documentaion for users of a SaaS product. I am the go-to proofreader for my team and I created my own set of <a href="https://medium.com/@buford.allison/guidelines-for-global-communication-bef48c986d32" target="_blank">Guidelines for Global Communication.</a> I am currently seeking full-time remote employment.</p>
+            <p>I create accessible, engaging, and effective content for users around the world. My goal is to connect people to the information that they want in a frustration-free way. We live in an age of information where accessibility is too often under-valued. I see this as a challenge-- one that I happily rise to.  I am currently seeking full-time remote employment.</p>
+            <p>I currently work as a Product Specialist for a nonprofit where I create and manage documentaion for users of a SaaS product. I am the go-to proofreader for my team and I created my own set of <a href="https://medium.com/@buford.allison/guidelines-for-global-communication-bef48c986d32" target="_blank">Guidelines for Global Communication.</a></p>
 
 
 
@@ -45,5 +97,5 @@
 
 
     </body>
-
+</div>
 </html>
